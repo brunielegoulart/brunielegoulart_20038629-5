@@ -13,7 +13,7 @@
 
         header {
             height:100px;
-            background-color:#FFBCBC;
+            background-color:#FDEFEF;
             text-align:center;
             padding: 15px;
         
@@ -23,7 +23,7 @@
         }
             
         nav {
-            background-color: #FDEFEF;
+            background-color:#FFBCBC;
         }
         nav ul{
             list-style: none;
@@ -43,7 +43,7 @@
             min-height:400px;
         }
         footer{
-            background-color:#FDEFEF;
+            background-color:#FFBCBC;
             min-height:25px;
             padding:20px;
         }
