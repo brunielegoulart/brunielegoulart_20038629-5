@@ -11,6 +11,11 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
+        a{
+            text-decoration: none;
+            color:inherit;
+        }
+
         header {
             height:100px;
             background-color:#FDEFEF;
@@ -76,8 +81,18 @@
     <div class="content">
         <div class="container">
         <?php
-            include('pages/home.php');
+            $page = "home";
+
+            if(isset($_GET['page'])){
+                
+                if(file_exists("pages/".$_GET['page'].'.php')){
+                  $page =  $_GET['page'];
+                }
+            }
+
+            include("pages/$page.php");
         ?>
+
         </div>
         
     </div>
