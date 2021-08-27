@@ -45,7 +45,15 @@
         footer{
             background-color:#FFBCBC;
             min-height:25px;
-            padding:20px;
+            padding:10px;
+        }
+
+        .container{
+            max-width: 800px;
+            display: flex;
+            margin:auto;
+            padding-top: 30px;
+            flex-wrap: wrap;
         }
 
     </style>
@@ -66,12 +74,16 @@
     </nav>
 
     <div class="content">
-        conteudo
+        <div class="container">
+        <?php
+            include('pages/home.php');
+        ?>
+        </div>
+        
     </div>
 
     <footer>
-        <p>Bruniele Goulart Barbosa | |  RA: 20038629-5</p>
-        
+        <p>Acadêmica:Bruniele Goulart Barbosa | |  RA: 20038629-5</p>   
     </footer>
 </body>
 </html>
