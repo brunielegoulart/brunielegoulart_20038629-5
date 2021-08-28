@@ -5,75 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Copo da Felicidade gourmet</title>
-    <style>
-        body{
-            margin: 0;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-
-        a{
-            text-decoration: none;
-            color:inherit;
-        }
-
-        header {
-            height:100px;
-            background-color:#FDEFEF;
-            text-align:center;
-            padding: 15px;
-        
-        }
-        .logo {
-            height: 120px;
-        }
-            
-        nav {
-            background-color:#FFBCBC;
-        }
-        nav ul{
-            list-style: none;
-            width: 100%;
-            margin: 0px;
-            padding: 0px;
-            display: flex;
-            justify-content:center ;
-        }
-        nav ul li{
-            padding-top:12px;
-            padding-bottom: 12px;
-            padding-left: 25px;
-            padding-right: 25px;
-        }
-        .content{
-            min-height:400px;
-        }
-        footer{
-            background-color:#FFBCBC;
-            min-height:25px;
-            padding:10px;
-        }
-
-        .container{
-            max-width: 800px;
-            display: flex;
-            margin:auto;
-            padding-top: 30px;
-            flex-wrap: wrap;
-        }
-
-    </style>
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/index.css"> 
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/home.css">
+    
 </head>
 <body>
     <header>
+    
     <div class="logo"><img src="Imagens/Logo.png" class="logo"></div>
         
     </header>
 
     <nav>
         <ul>
-            <li>Home</li>
-            <li>Quem somos</li>
-            <li>Contato</li>
+            <li>
+                <a href="index.php">Home</a>
+            </li>
+
+            <li>
+                <a href="index.php?page=quem_somos">Quem somos</a>
+            </li>
+
+            <li>
+                <a href="index.php?page=contato">Contato</a>
+            </li>
+
             <li>Localização</li>
         </ul>
     </nav>

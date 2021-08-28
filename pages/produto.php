@@ -1,39 +1,3 @@
-<style>
-    .prod-cl{
-        width: 50%;
-    }
-    .prod-cr{
-        width: 50%;
-        margin-bottom: 20px;
-    }
-    .prod-cl img{
-        width: 300px;
-        height: 300px;
-        border-radius: 150px;
-    }
-
-    .preco-unidade{
-        font-size: 16px;
-    }
-
-    .prod-cr h2{
-        color: #423F3E;
-    }
-
-    .prod-cr p{
-        font-size:24px;
-        font-weight:lighter;
-        margin-bottom:30px;
-    }
-    .button{
-        text-decoration: none;
-        color: #FFF;
-        background-color: #BFA2DB;
-        padding: 12px;
-        font-weight: bold;
-        border-radius: 7px;
-    }
-</style>
 
 <?php
     require_once('dados/produtos.php');
